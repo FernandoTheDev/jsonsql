@@ -4,13 +4,9 @@
 [![Code style](https://img.shields.io/badge/code%20style-standard-green)](https://www.php-fig.org/psr/psr-2/)
 [![License](https://img.shields.io/badge/license-MIT-green)](https://github.com/badfarm/zanzara/blob/develop/LICENSE.md)
 
----
-
 **JsonSQL** is a way to use json as a database in testing or really small projects. **No IO control, no advanced logging system or anything like that.**
 
 If you want to use it, use it. You don't need to configure anything and it's super simple to use.
-
-## Problems
 
 I believe that json is not good, and I believe that php is not ideal, there are problems like 2 requests and changing the file at the same time. Let's say someone changes the file and 0.01s later another person changes other information, the file has not yet been saved, I mean, if it is too wide it will certainly not have been saved in that time and will soon corrupt the data edited at 0.01s. Therefore, only use it if it is really for testing, or something very specific.
 
@@ -22,7 +18,7 @@ With composer install with the command:
 composer require fernandothedev/jsonsql
 ```
 
-### Usage
+## Usage
 
 The target json file must have at least open braces.
 
