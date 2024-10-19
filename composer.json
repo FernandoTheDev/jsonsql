@@ -1,5 +1,5 @@
 {
-    "name": "fernandocabral/jsonsql",
+    "name": "fernandothedev/jsonsql",
     "description": "Melhor coisa pra manipular json com php.",
     "type": "project",
     "license": "MIT",
@@ -15,5 +15,7 @@
             "email": "fernandolovephp@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "php": "^8.1"
+    }
 }
