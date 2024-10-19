@@ -1,0 +1,19 @@
+{
+    "name": "fernandocabral/jsonsql",
+    "description": "Melhor coisa pra manipular json com php.",
+    "type": "project",
+    "license": "MIT",
+    "version": "0.1.14",
+    "autoload": {
+        "psr-4": {
+            "Fernando\\JsonSQL\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Fernando Cabral",
+            "email": "fernandolovephp@gmail.com"
+        }
+    ],
+    "require": {}
+}
