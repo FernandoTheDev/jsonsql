@@ -31,7 +31,7 @@ Use the class using the **Fernando\\\JsonSQL** namespace:
 ```php
 <?php
 
-use Fernando\\JsonSQL;
+use Fernando\JsonSQL;
 
 require_once __DIR__ . '/path/from/autoload.php';
 
